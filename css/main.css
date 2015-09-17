@@ -28,7 +28,7 @@ h6 {
   color: #1A1A1A;
 }
 a {
-  color: #F01C1E;
+  color: #FF6B6B;
   -webkit-transition: color 400ms, background-color 400ms;
   -moz-transition: color 400ms, background-color 400ms;
   -o-transition: color 400ms, background-color 400ms;
@@ -160,7 +160,7 @@ ul.nostyle i {
 
 @media (max-width: 767px) {
   #main-menu.navbar-default {
-    background: rgba(255, 255, 255, .7);
+    background: rgba(255, 255, 255, 1);
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
   #main-menu.navbar-default .navbar-nav > li > a {
@@ -195,7 +195,7 @@ ul.nostyle i {
     height: 50px;
   }
   #main-menu.navbar-default {
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, 1);
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
@@ -293,14 +293,14 @@ ul.nostyle i {
   /* SLIDER-END */
 
     #home-page {
-      background: url(../img/);
+    /*  background: url(../img/);
       background-attachment: fixed;
       background-position: top center;
       background-repeat: repeat-x;
       background-size: auto;
-      overflow: hidden;
+      overflow: hidden;*/
       width: 100%;
-      height: 600px;
+      height: auto;
       left: 0;
       background-color: #FF6B6B;
       margin-top: 0px;
@@ -325,6 +325,7 @@ ul.nostyle i {
     }
     #home-page .home-content p {
       margin-top: 0px;
+      padding-bottom: 50px;
       font-size: 0.750em;
       font-style: italic;
       line-height: 1.5;
@@ -438,6 +439,7 @@ ul.nostyle i {
   }
   #home-page .home-content p {
     margin-top: 0px;
+    margin-bottom: 30px;
     font-size: 1.188em;
     font-style: italic;
     line-height: 1.3;
@@ -448,7 +450,60 @@ ul.nostyle i {
 /* ABOUT */
 
 @media (max-width: 767px) {
-
+  #about {
+    color: #1A1A1A;
+    padding: 87px 0 0 0 ;
+    background-color: #FFF;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: repeat;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  #about #about-text p {
+    font-size: 1.000em;
+    padding-top: 0px;
+  }
+  #about p > span {
+    background-color: #4ECDC4;
+    color: #1A1A1A;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 3px;
+  }
+  #about-icon img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+  }
+  #about .stripes {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #about .stripes h3 {
+    color: #FF6B6B;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #stripes-text {
+    margin:30px 0px;
+  }
+  #about .stripes #str-par {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    display: block;
+  }
+  #about .stripes a {
+    padding: 10px;
+    border-radius: 2px;
+    font-size: .7em;
+    color: #FFF;
+    background-color: #FF6B6B;
+  }
 }
 
 @media (min-width: 768px) {
@@ -484,6 +539,7 @@ ul.nostyle i {
     height: 650px;
     margin-top: 0px;
     margin-bottom: 30px;
+    border-radius: 3px;
   }
   #about .stripes h3 {
     color: #FF6B6B;
@@ -499,6 +555,9 @@ ul.nostyle i {
     margin-top: 0px;
     margin-bottom: 30px;
     display: block;
+  }
+  #about ul {
+    list-style: square;
   }
   #about .stripes a {
     padding: 10px;
@@ -512,53 +571,37 @@ ul.nostyle i {
 /* BOOKS */
 
 @media (max-width: 767px) {
-  #about {
+
+  #books {
+    background-color: #C7F464;
     color: #1A1A1A;
-    padding: 70px 0;
-    background-color: #FFF;
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: repeat;
-    font-size: 1.8em;
-    font-weight: 400;
-    line-height: 1.5;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    padding-top: 47px;
+    padding-bottom: 30px;
+    text-align: center;
   }
-  #about p {
-    padding-top: 20px;
+  #books p {
+    display: none;
+    font-size: 0.750em;
   }
-  #about p > span {
-    background-color: #4ECDC4;
-    color: #1A1A1A;
-    padding-top: 5px;
-    padding-right: 3px;
-    padding-left: 3px;
-    border-radius: 3px;
+  #books #pdfs {
+    padding: 40px 0;
   }
-  #about-icon img {
-    margin-top: 0px;
-    margin-bottom: 30px;
-  }
-  #about .stripes h3 {
-    color: #FF6B6B;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #about .stripes {
-    padding-top: 30px;
-  }
-  #about .stripes #str-par {
-    color: #1A1A1A;
-    font-size: .6em;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    display: block;
-  }
-  #about .stripes a {
-    padding: 10px;
-    border-radius: 2px;
-    font-size: .7em;
-    color: #FFF;
-    background-color: #FF6B6B;
+  #books .thumbnail {
+    display: inline-block;
+    padding: 0;
+    margin: 20px 0 10px 0;
+    background-color: rgba(0,0,0,0);
+    border: 1px rgba(0, 0, 0, 0);
+    border-radius:3px;
+    transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    box-shadow: 0 2px -1px 2px rgba(136,136,136,.7);
+    -webkit-box-shadow: 0 2px -1px 2px rgba(136,136,136,.7);
+    -moz-box-shadow: 0 2px -1px 2px rgba(136,136,136,.7);
   }
 }
 
@@ -577,16 +620,20 @@ ul.nostyle i {
   }
   #books #pdfs {
     padding: 120px 0;
-
+  }
+  #books p {
+    display: none;
+    font-size: 0.750em;
   }
   #books .thumbnail {
+    -webkit-filter: grayscale(100%);
     width: 90%;
     display: inline-block;
     padding: 0;
     margin: 20px 0 10px 0;
     background-color: rgba(0,0,0,0);
     border: 1px rgba(0, 0, 0, 0);
-    border-radius:5px;
+    border-radius:3px;
     transition: all 0.2s ease-in-out 0s;
     -webkit-transition: all 0.2s ease-in-out 0s;
     -moz-transition: all 0.2s ease-in-out 0s;
@@ -594,6 +641,9 @@ ul.nostyle i {
     box-shadow: 0 2px -1px 2px rgba(136,136,136,.7);
     -webkit-box-shadow: 0 2px -1px 2px rgba(136,136,136,.7);
     -moz-box-shadow: 0 2px -1px 2px rgba(136,136,136,.7);
+  }
+  #books img:hover {
+    -webkit-filter: grayscale(0%);
   }
 }
 
@@ -672,7 +722,45 @@ ul.nostyle i {
 /* GET IN TOUCH  */
 
 @media (max-width: 767px) {
-
+  #get-in-touch {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #1A1A1A;
+    color: #4ECDC4;
+  }
+  #get-in-touch h1,
+  #get-in-touch h2 {
+    color: #fff;
+    font-family: 'Amaranth', sans-serif;
+    margin-bottom: 50px;
+    line-height: 1.2;
+  }
+  #get-in-touch p {
+    color: #4ECDC4;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    line-height: 2;
+  }
+  #get-in-touch #contact a {
+    color: #EDF1D4;
+  }
+  #get-in-touch #icons {
+    text-align: center;
+  }
+  #get-in-touch #icons a {
+    margin: 10px;
+    font-size: 1.500em;
+    color: #4ECDC4;
+    transition: background-color 400ms, background-color 400ms;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
 }
 
 @media (min-width: 768px) {
