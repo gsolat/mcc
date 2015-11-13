@@ -1141,6 +1141,7 @@ ul.nostyle i {
   }
   #team ul {
     font-family: 'Amaranth',sans-serif;
+    font-size: 0.875em;
     color: #1A1A1A;
     list-style: none;
     padding-left: 0;
@@ -1194,7 +1195,7 @@ ul.nostyle i {
     text-transform: uppercase;
   }
   #team li {
-    font-size: 0.875em;
+    font-size: 0.750em;
     line-height: 1.500em;
   }
 }
@@ -1218,7 +1219,7 @@ ul.nostyle i {
     font-family: 'Amaranth', sans-serif;
   }
   #team #profile {
-    height: 320px;
+    height: 350px;
     margin-bottom: 20px;
   }
   #team h4, h5 {
@@ -1239,9 +1240,10 @@ ul.nostyle i {
     font-size: 0.500em;
     font-weight: 400;
     text-transform: uppercase;
+    line-height: 0;
   }
   #team li {
-    font-size: 0.750em;
+    font-size: 0.688em;
     line-height: 1.000em;
   }
 }
