@@ -202,7 +202,7 @@ ul.nostyle i {
     margin-top: 20px;
   }
   #main-menu.navbar-default .navbar-nav > li > a {
-    font-size: 0.750em; /*1.000em*/
+    font-size: 1.000em;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #556270;
@@ -709,7 +709,7 @@ ul.nostyle i {
   }
   #about .stripes #str-par {
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     display: block;
   }
   #about .stripes a {
@@ -726,8 +726,8 @@ ul.nostyle i {
 @media (min-width: 992px) {
   #selected {
     color: #1a1a1a;
-    padding-top: 120px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 10px;
     background-color: #55B9B3;
     text-align: left;
   }
@@ -769,9 +769,9 @@ ul.nostyle i {
 @media (min-width: 768px) and (max-width: 992px){
   #selected {
     color: #1a1a1a;
-    padding-top: 120px;
+    padding-top: 80px;
     height: auto;
-    padding-bottom: 150px;
+    padding-bottom: 0px;
     background-color: #55B9B3;;
     text-align: left;
   }
@@ -808,9 +808,9 @@ ul.nostyle i {
 @media (max-width: 767px) {
   #selected {
     color: #1a1a1a;
-    padding-top: 100px;
+    padding-top: 10px;
     height: auto;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
     background-color: #55B9B3;
     text-align: left;
   }
@@ -1141,7 +1141,7 @@ ul.nostyle i {
   }
   #team ul {
     font-family: 'Amaranth',sans-serif;
-    font-size: 0.875em;
+    font-size: ub32.875em;
     color: #1A1A1A;
     list-style: none;
     padding-left: 0;
